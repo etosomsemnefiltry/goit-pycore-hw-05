@@ -30,7 +30,7 @@ def main():
             n = int(n)
             if n in cache:
                 print(Fore.LIGHTYELLOW_EX + f'    --> Число {n} уже было в кеше: {cache[n]}')
-                print(Fore.LIGHTGREEN_EX + f'\nЧисло Фибоначчи для {n}: {result}')
+                print(Fore.LIGHTGREEN_EX + f'\nЧисло Фибоначчи для {n} -> {result}')
             else:
                 result = fib(n)
                 print(Fore.LIGHTGREEN_EX + f'\nЧисло Фибоначчи для {n}: {result}')
