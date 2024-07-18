@@ -6,7 +6,7 @@ init(autoreset=True)
 
 cache = {}
 
-def caching_fibonacci() -> Callable[[int], int]:
+def caching_fibonacci():
     
     def fibonacci(n: int) -> int:
         if n <= 1:
