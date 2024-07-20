@@ -1,2 +1,0 @@
-colorama==0.4.6
-typing==3.7.4.3
